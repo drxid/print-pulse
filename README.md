@@ -23,6 +23,22 @@ A small Windows tray app that keeps an inkjet printer healthy. Inkjets dry out w
 
 Built for and tested with an **EPSON L8180** on the network; other Epson inkjets that speak the same remote commands should work too.
 
+## Install
+
+Download `Print.Pulse_x.y.z_x64-setup.exe` from the [latest release](https://github.com/drxid/print-pulse/releases/latest) and run it. After that the app updates itself.
+
+Windows 10/11 only — printing goes through the Windows spooler.
+
+## Build from source
+
+Requires [Node.js](https://nodejs.org/) 20+ and the [Rust toolchain](https://rustup.rs/).
+
+```sh
+npm ci
+npm run tauri dev     # run in development
+npm run tauri build   # build the installer
+```
+
 ## Tech stack
 
 - [Tauri 2](https://v2.tauri.app/) (Rust) + [Svelte 5](https://svelte.dev/) + Vite
