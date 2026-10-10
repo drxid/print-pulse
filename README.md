@@ -6,6 +6,10 @@ A small Windows tray app that keeps an inkjet printer healthy. Inkjets dry out w
   <img src="reference/app-icon.svg" width="96" alt="Print Pulse icon" />
 </p>
 
+<p align="center">
+  <img src="docs/screenshot.png" width="420" alt="Print Pulse main window" />
+</p>
+
 ## Features
 
 - **Scheduled maintenance prints** — every 1/3/5/7 days at a chosen time; a run missed while the PC was off happens on the next start.
