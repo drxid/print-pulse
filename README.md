@@ -1,10 +1,6 @@
-# Print Pulse
+# <img src="reference/app-icon.svg" width="36" align="absmiddle" alt="" /> Print Pulse
 
 A small Windows tray app that keeps an inkjet printer healthy. Inkjets dry out when they sit idle — ink thickens in the nozzles and prints come out streaky — so Print Pulse sends a short maintenance print on a schedule, and keeps an eye on ink, the maintenance box and the print queue.
-
-<p align="center">
-  <img src="reference/app-icon.svg" width="96" alt="Print Pulse icon" />
-</p>
 
 <p align="center">
   <img src="docs/screenshot.png" width="420" alt="Print Pulse main window" />
